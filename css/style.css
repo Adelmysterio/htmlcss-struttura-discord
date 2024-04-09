@@ -128,7 +128,7 @@ h3+div {
 }
 
 hr {
-    margin: 3rem 22rem;
+    margin: 3rem 22rem 2rem;
     height: 1px;
     background: #7289da;
     border: 0;
@@ -195,7 +195,7 @@ hr {
 .nav-footer {
     display: flex;
     justify-content: space-between;
-}
+    }
 
 /* Stile bottoni */
 
