@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Cabin", sans-serif;
@@ -61,6 +61,7 @@ section section {
 
 main section:last-of-type {
     flex-direction: column;
+    align-items: center;
 }
 
 main div:last-child {
@@ -71,7 +72,7 @@ main div:last-child {
 }
 
 main div img:first-child {
-    width: 120%;
+    width: 70%;
     margin: 0;
 }
 
@@ -92,10 +93,10 @@ footer {
 }
 
 footer>div {
-    margin: 0 20rem;
+    margin: 0 19rem;
     padding-top: 10rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 div section:first-child {
@@ -124,11 +125,10 @@ img+p {
 h3+div {
     display: flex;
     height: 1rem;
-    margin: 0;
 }
 
 hr {
-    margin: 3rem 22rem 2rem;
+    margin: 3rem 19rem 2rem;
     height: 1px;
     background: #7289da;
     border: 0;
@@ -170,9 +170,6 @@ hr {
     margin-bottom: 10rem;
 }
 
-.flag {
-    margin: 0;
-}
 
 .lang {
     font-size: 2rem;
@@ -184,18 +181,18 @@ hr {
     height: 1.2rem;
     width: 60%;
     justify-content: space-between;
-    margin: 0;
     margin-top: 1.2rem;
-}
-
-.social img {
-    margin: 0;
 }
 
 .nav-footer {
     display: flex;
     justify-content: space-between;
-    }
+    margin: 0 19rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
 
 /* Stile bottoni */
 
