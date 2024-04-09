@@ -1,25 +1,11 @@
 * {
     margin: 0 auto;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Cabin", sans-serif;
 }
 
 /* Stile Generale */
-
-.nav-header {
-    display: flex;
-    height: 80px;
-    background-color: #255ee9;
-    padding: 1rem 5rem;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-.logo {
-    height: 2.5rem;
-}
 
 nav {
     display: flex;
@@ -35,29 +21,14 @@ nav ul li {
     padding: 0 2rem;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10rem;
-}
-
-h1, h2 {
+h1,
+h2 {
     font-size: 3.5rem;
     margin-bottom: 2rem;
 }
 
-h1{
+h1 {
     padding-top: 7rem;
-}
-
-.container p{
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
 }
 
 h1,
@@ -66,10 +37,6 @@ h1+p {
     width: 50%;
     color: white;
     line-height: 1.5;
-}
-
-.button-header{
-    margin-bottom: 10rem;
 }
 
 main {
@@ -82,13 +49,14 @@ main section {
     display: flex;
     justify-content: center;
     margin-bottom: 10rem;
+    align-items: flex-start;
+
 }
 
 section section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-basis: 20%;
+    flex-basis: 40%;
 }
 
 main section:last-of-type {
@@ -98,11 +66,23 @@ main section:last-of-type {
 main div:last-child {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 10rem;
+}
+
+main div img:first-child {
+    width: 120%;
+    margin: 0;
+}
+
+main p {
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 div>h2 {
     font-size: 2.5rem;
+    text-align: center;
 }
 
 footer {
@@ -115,15 +95,18 @@ footer>div {
     margin: 0 20rem;
     padding-top: 10rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+div section:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: baseline;
 }
 
 h3 {
     color: #7289da;
-}
-
-h3:only-child {
-    font-size: 2rem;
 }
 
 li {
@@ -131,6 +114,87 @@ li {
     list-style-position: inside;
     padding: .5rem 0;
     color: white;
+}
+
+img+p {
+    color: white;
+    margin-left: 1rem;
+}
+
+h3+div {
+    display: flex;
+    height: 1rem;
+    margin: 0;
+}
+
+hr {
+    margin: 3rem 22rem;
+    height: 1px;
+    background: #7289da;
+    border: 0;
+}
+
+/* Classi */
+
+.nav-header {
+    display: flex;
+    height: 80px;
+    background-color: #255ee9;
+    padding: 1rem 5rem;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.button-header {
+    margin-bottom: 10rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.flag {
+    margin: 0;
+}
+
+.lang {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.social {
+    display: flex;
+    height: 1.2rem;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 1.2rem;
+}
+
+.social img {
+    margin: 0;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Stile bottoni */
@@ -151,7 +215,7 @@ button {
 }
 
 .black {
-    background-color: black;
+    background-color: #23272a;
     color: white;
 }
 
