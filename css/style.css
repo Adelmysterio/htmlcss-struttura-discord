@@ -39,7 +39,7 @@ h1, h1 + p {
 main {
     display: flex;
     flex-direction: column;
-    
+    margin: 0 20rem;    
 }
 
 main section {
@@ -59,5 +59,44 @@ h2 {
     margin-bottom: 2rem;
 }
 
+main section:last-of-type {
+    flex-direction: column;
+}
 
+main div:last-child {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
 
+div>h2 {
+    font-size: 2.5rem;
+}
+
+footer {
+    background-color: #23272a;
+    height: 700px;
+    font-size: 1rem;
+}
+
+footer>div {
+    margin: 0 20rem;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+color: #7289da;
+}
+
+h3:only-child {
+    font-size: 2rem;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: .5rem 0;
+    color: white;
+}
