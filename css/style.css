@@ -50,7 +50,6 @@ main section {
     justify-content: center;
     margin-bottom: 10rem;
     align-items: flex-start;
-
 }
 
 section section {
@@ -89,7 +88,6 @@ div>h2 {
 
 footer {
     background-color: #23272a;
-    height: 700px;
     font-size: 1rem;
 }
 
@@ -189,6 +187,7 @@ hr {
     display: flex;
     justify-content: space-between;
     margin: 0 19rem;
+    padding-bottom: 2rem;
 }
 
 .text-align-center {
