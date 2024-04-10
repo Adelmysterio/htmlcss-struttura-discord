@@ -72,8 +72,9 @@ main div:last-child {
 }
 
 main div img:first-child {
-    width: 70%;
-    margin: 0;
+    width: 75%;
+    position: relative;
+    top: 30px;
 }
 
 main p {
@@ -102,7 +103,7 @@ footer>div {
 div section:first-child {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 25%;
     justify-content: baseline;
 }
 
@@ -193,6 +194,7 @@ hr {
 .text-align-center {
     text-align: center;
 }
+
 
 /* Stile bottoni */
 
